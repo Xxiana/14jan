@@ -245,34 +245,24 @@ def get_message_type(msg: pyrogram.types.messages_and_media.message.Message):
 	except: pass
 
 
-USAGE = """**FOR PUBLIC CHATS**
+USAGE = """
+🚀 Halo aku bot save konten silahkan kirim link konten nya, pastikan akun mu join di grup/channel Tersebut.
 
-__just send post/s link__
 
-**FOR PRIVATE CHATS**
+<b>Media dari Bot</b>
 
-__first send invite link of the chat (unnecessary if the account of string session already member of the chat)
-then send post/s link__
+kirim tautan dengan '/b/', nama pengguna bot dan id pesan
 
-**FOR BOT CHATS**
-
-__send link with '/b/', bot's username and message id, you might want to install some unofficial client to get the id like below__
-
-```
 https://t.me/b/botusername/4321
-```
 
-**MULTI POSTS**
 
-__send public/private posts link as explained above with formate "from - to" to send multiple messages like below__
+<b>Batch Download/Download sekaligus</b>
 
-```
+kirim link postingan publik/pribadi seperti yang dijelaskan di atas dengan format "dari - ke" untuk mengirim banyak pesan seperti di bawah
+
 https://t.me/xxxx/1001-1010
 
 https://t.me/c/xxxx/101 - 120
-```
-
-__note that space in between doesn't matter__
 """
 
 
